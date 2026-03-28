@@ -7,7 +7,7 @@ end
 hook.Add("CaseRegisterItems", "MyCustomItem", function ()
 	-- Add hopium from https://steamcommunity.com/sharedfiles/filedetails/?id=3606384767
 	CaseInventory:RegisterItem(
-		CaseWeapon("weapon_hopium", -- Weapon name
+		CaseWeapon("weapon_hopium", -- Weapon name, you can get this from right clicking stuff in the spawn menu and then hitting copy to clipboard
 			CaseRenderInfo("models/weapons/w_hopium.mdl",  -- Model to use
 				0.7, -- Model Scale
 				{-90}, -- Rotation
